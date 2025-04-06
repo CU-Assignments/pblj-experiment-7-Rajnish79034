@@ -6,9 +6,9 @@ import java.util.Scanner;
 public class Medium7JDBC {
 
     public static void main(String[] args) {
-        String url = "jdbc:mysql://localhost:3306/rajnishidb";
+        String url = "jdbc:mysql://localhost:3306/rajnishdb";
         String user = "root";
-        String password = "rajnishi@1234";
+        String password = "rajnish@1234";
         
         try (Connection conn = DriverManager.getConnection(url, user, password);
              Scanner sc = new Scanner(System.in)) {
