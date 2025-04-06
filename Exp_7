@@ -8,7 +8,7 @@ public class Easy7JDBC {
         // Database connection details
         String url = "jdbc:mysql://localhost:3306/shivanidb";
         String username = "root";
-        String password = "Shivani@1234";
+        String password = "Rajnish@1234";
 
         // SQL Query
         String query = "SELECT * FROM Employee";
@@ -18,7 +18,7 @@ public class Easy7JDBC {
             Statement stmt = conn.createStatement();
             ResultSet rs = stmt.executeQuery(query)
         ) {
-            System.out.println("Connected to shivanidb successfully!\n");
+            System.out.println("Connected to rajnishdb successfully!\n");
             System.out.println("EmpID | Name | Salary");
 
             while (rs.next()) {
